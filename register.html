@@ -55,11 +55,6 @@
 		div {
         	margin-bottom: 10px;
       	}
-      	label {
-	        
-	        width: 900px;
-	        color: #777777;
-      	}
       	input[id *= 'name'] {
       		margin-left: 5%;
       		width: 85%;
@@ -68,6 +63,7 @@
 
 
       		border: none;
+      		border-top: solid 2px transparent;
       		border-bottom: skyblue solid 2px;
       	}
       	input[id = 'email'] {
@@ -80,6 +76,7 @@
 
 
       		border: none;
+      		border-top: solid 2px transparent;
       		border-bottom: skyblue solid 2px;
       	}
       	input{
@@ -104,6 +101,18 @@
 			border-radius: 10px;
 			margin-top: 100px;
 			background-color: black;
+			font-size: 20px;
+
+		}
+		button[type='submit']:focus{
+			cursor: pointer;
+			border: solid 2px black;
+			padding: 6px 12px;
+			color: white;
+			border-radius: 10px;
+			margin-top: 100px;
+			background-color: white;
+			color: black;
 			font-size: 20px;
 
 		}
